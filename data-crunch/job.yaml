@@ -2,4 +2,4 @@ containers:
 - name: crunch
   image: data-crunch:0.1        # local image you just built
   imagePullPolicy: IfNotPresent # tells k8s to use the local copy
-  command: ["python", "app.py"] # adjust args as needed
+  command: ["python", "app.py", "/data/large.csv", "value"]

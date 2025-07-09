@@ -1,6 +1,6 @@
+from pathlib import Path
 import pandas as pd
 import sys
-from pathlib import Path
 
 file = sys.argv[1]
 col = sys.argv[2]
